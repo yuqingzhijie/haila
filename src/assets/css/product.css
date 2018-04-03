@@ -1,0 +1,223 @@
+.haila-product {
+  background-color: #fff;
+}
+.haila-product .container {
+  width: 1080px;
+  margin: 0 auto;
+}
+.haila-product .haila-product-detail {
+  display: flex;
+  padding-top: 30px;
+}
+.haila-product .haila-product-detail .product-detail-preview img {
+  width: 360px;
+  height: 360px;
+  border: 1px solid #eee;
+}
+.haila-product .haila-product-detail .product-detail-info {
+  margin-left: 30px;
+}
+.haila-product .haila-product-detail .product-detail-info .product-brand {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+.haila-product .haila-product-detail .product-detail-info .product-brand img {
+  width: 24px;
+  height: 24px;
+}
+.haila-product .haila-product-detail .product-detail-info .product-brand span {
+  margin-left: 6px;
+  color: #888;
+}
+.haila-product .haila-product-detail .product-detail-info .product-title {
+  margin: 10px 0 5px;
+}
+.haila-product .haila-product-detail .product-detail-info .product-title h3 {
+  font-size: 18px;
+}
+.haila-product .haila-product-detail .product-detail-info .product-introduction {
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: #333;
+}
+.haila-product .haila-product-detail .product-detail-info .product-price {
+  padding: 10px;
+  background-color: #f9f9f9;
+  color: #666;
+  display: flex;
+  align-items: center;
+  border-top: 1px dotted #ddd;
+  border-bottom: 1px dotted #ddd;
+}
+.haila-product .haila-product-detail .product-detail-info .product-price .key {
+  color: #eb295c;
+  font-size: 22px;
+  font-weight: bold;
+}
+.haila-product .haila-product-detail .product-detail-info .product-price .product-price-now {
+  display: flex;
+  align-items: center;
+}
+.haila-product .haila-product-detail .product-detail-info .product-price .product-price-now span:nth-child(1) {
+  width: 60px;
+}
+.haila-product .haila-product-detail .product-detail-info .product-price .product-price-old {
+  margin-left: 14px;
+  color: #999;
+}
+.haila-product .haila-product-detail .product-detail-info .product-number {
+  display: flex;
+  margin-top: 20px;
+  padding-left: 10px;
+  line-height: 42px;
+}
+.haila-product .haila-product-detail .product-detail-info .product-number span {
+  width: 60px;
+  color: #666;
+}
+.haila-product .haila-product-detail .product-detail-info .product-number div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 60px;
+  height: 40px;
+  border: 1px solid #ccc;
+}
+.haila-product .haila-product-detail .product-detail-info .product-number div input {
+  flex: 0 0 100%;
+  height: 10px;
+  width: 40px;
+  border-right: 1px solid #ccc;
+}
+.haila-product .haila-product-detail .product-detail-info .product-number div a {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  background-color: #f1f1f1;
+}
+.haila-product .haila-product-detail .product-detail-info .product-number div a:nth-child(2) {
+  border-bottom: 1px solid #ccc;
+}
+.haila-product .haila-product-detail .product-detail-info .product-number div input,
+.haila-product .haila-product-detail .product-detail-info .product-number div a {
+  box-sizing: border-box;
+  text-align: center;
+}
+.haila-product .haila-product-detail .product-detail-info .product-number .product-add {
+  margin-left: 10px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #eb295c;
+}
+.haila-product .haila-product-detail .product-detail-info .product-comment-prief {
+  font-size: 13px;
+  margin-top: 20px;
+  color: #333;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.haila-product .haila-product-detail .product-detail-info .product-comment-prief span:nth-child(1) {
+  width: 60px;
+  color: #666;
+}
+.haila-product .haila-product-detail .product-detail-info .product-comment-prief span:nth-child(2) {
+  font-size: 14px;
+  font-weight: bold;
+  color: #eb295c;
+}
+.haila-product .haila-product-detail .product-detail-info .product-comment-prief span:nth-child(4) {
+  font-weight: bold;
+  margin-left: 14px;
+}
+.haila-product .haila-product-comment {
+  margin-top: 20px;
+}
+.comment-form {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  background: #f5f5f5;
+  text-align: right;
+  /*display: flex;*/
+}
+.comment-form .comment-content-wrap {
+  position: relative;
+  margin-bottom: 6px;
+  /*width: 1058px;*/
+}
+.comment-form .comment-content {
+  width: 100%;
+  height: 70px;
+  padding: 36px 5px 5px;
+  border: 1px solid #e9e9e9;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.comment-form .comment-star {
+  display: flex;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+.comment-form .comment-star a.isActive {
+  color: #eb295c;
+}
+.comment-form .comment-star .star-level {
+  padding: 2px 4px;
+  margin: 0 6px 6px 0;
+  color: #aaa;
+  border: 1px solid;
+  border-radius: 2px;
+}
+.comment-form .comment-star .star-level:hover {
+  color: #eb295c;
+}
+.comment-form .submit-btn {
+  border: 1px solid #aaa;
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: #fff;
+}
+.haila-product .haila-product-comment .product-comment-list {
+  margin: 10px 0;
+  border: 1px solid #e8e8e8;
+}
+.haila-product .haila-product-comment .product-comment-list .comment-list-item {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.haila-product .haila-product-comment .product-comment-list .comment-list-item:last-child {
+  border-bottom: 0;
+}
+.haila-product .haila-product-comment .product-comment-list .comment-list-item .user-name {
+  width: 100px;
+  color: #eb295c;
+}
+.haila-product .haila-product-comment .product-comment-list .comment-list-item .user-comment-box {
+  flex: 1;
+}
+.haila-product .haila-product-comment .product-comment-list .comment-list-item .user-comment-box .user-star {
+  /*display: flex;*/
+  margin-bottom: 4px;
+  background: url(./../../../static/imgs/star.png) repeat;
+  background-size: 12px 12px;
+  height: 12px;
+}
+/*.haila-product .haila-product-comment .product-comment-list .comment-list-item .user-comment-box .user-star img {
+  width: 12px;
+  height: 12px;
+}*/
+.haila-product .haila-product-comment .user-comment {
+  padding-left: 2px;
+}
+.haila-product .haila-product-comment .product-comment-list .comment-list-item .user-time {
+  text-align: right;
+  align-self: flex-end;
+  color: #999;
+}

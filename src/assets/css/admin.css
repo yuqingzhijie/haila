@@ -1,0 +1,64 @@
+.haila-admin {
+  margin: 20px 0;
+}
+.haila-admin .container {
+  width: 1080px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #333;
+}
+.haila-admin .form-group {
+  display: flex;
+  margin-bottom: 15px;
+}
+.haila-admin .form-group:last-child .btn-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.haila-admin .form-group:last-child button,
+.haila-admin .form-group:last-child a {
+  width: 100%;
+  border-radius: 4px;
+  padding: 8px 16px;
+  line-height: 20px;
+  border: 1px solid #08599e;
+  font-size: 16px;
+  text-align: center;
+}
+.haila-admin .form-group:last-child button {
+  color: #fff;
+  background-color: #08599E;
+  margin: 15px 0;
+}
+.haila-admin .form-group:last-child a {
+  border-color: #ccc;
+}
+.haila-admin .group-4 {
+  width: 33.3%;
+  display: flex;
+}
+.haila-admin h4 {
+  font-size: 18px;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.haila-admin label {
+  width: 120px;
+  font-weight: bold;
+}
+.haila-admin input,
+.haila-admin textarea {
+  flex: 1;
+  color: #55595c;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  height: 20px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 4px;
+}
+.haila-admin textarea {
+  height: 34px;
+}

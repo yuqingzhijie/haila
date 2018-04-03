@@ -1,0 +1,51 @@
+body, div, p, a, span, input, i, h1, h2, h3, h4, h5, h6, ul, li, dl, dd, img {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	font: 12px Helvetica, Arial, sans-serif;
+	background-color: #fff;
+	height: 100%;
+}
+
+img, input {
+	display: block;
+	border: 0;
+}
+
+input, textarea {
+	outline: none;
+	padding: 0;
+}
+
+textarea {
+	resize: none;
+}
+
+ul, li {
+	list-style: none;
+}
+
+a {
+	display: block;
+	color: #666;
+	text-decoration: none;
+}
+
+.clear-group {
+	zoom: 1;
+}
+
+.clear-group:after {
+	content: '';
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}

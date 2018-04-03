@@ -1,0 +1,169 @@
+.haila-address {
+  padding-bottom: 20px;
+}
+.haila-address .container {
+  width: 1080px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.haila-address .container h2 {
+  font-size: 16px;
+  color: #eb295c;
+  /*font-weight: normal;*/
+  padding: 14px 0 6px 10px;
+  border-bottom: 1px solid #eb295c;
+  margin-bottom: 20px;
+}
+.haila-address .container .address-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.haila-address .container .address-list li {
+  box-sizing: border-box;
+  width: 260px;
+  height: 129px;
+  border: 2px solid #666;
+  padding: 10px;
+  margin-right: 13.3px;
+  margin-bottom: 13.3px;
+  background-color: #fff;
+  color: #333;
+  /*&:nth-child(3n) {
+					margin-right: 14px;
+				}*/
+}
+.haila-address .container .address-list .selected {
+  border-color: #eb295c;
+}
+.haila-address .container .address-list li .address-info {
+  padding-bottom: 10px;
+}
+.haila-address .container .address-list li .address-info dt {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.haila-address .container .address-list li .address-opration {
+  display: flex;
+  justify-content: space-between;
+}
+.haila-address .container .address-list li .address-opration a {
+  color: #eb295c;
+}
+.haila-address .container .address-list li:nth-child(4n) {
+  margin-right: 0;
+}
+.haila-address .container .address-list li .address-new {
+  width: 100%;
+  height: 100%;
+}
+.haila-address .container .address-list li .address-new i {
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: relative;
+  margin: 12px auto;
+}
+.haila-address .container .address-list li .address-new i:before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  top: 24px;
+  border-top: 2px solid;
+}
+.haila-address .container .address-list li .address-new i:after {
+  content: "";
+  position: absolute;
+  height: 50px;
+  left: 24px;
+  border-left: 2px solid;
+}
+.haila-address .container .address-list li .address-new span {
+  display: block;
+  text-align: center;
+  margin-top: 18px;
+}
+.haila-address .container .haila-order-list {
+  padding-bottom: 20px;
+}
+.haila-address .container .haila-order-list dt {
+  height: 40px;
+  font-size: 14px;
+  background-color: #605F5F;
+  color: #fff;
+  display: flex;
+}
+.haila-address .container .haila-order-list dt span {
+  line-height: 40px;
+  text-align: center;
+}
+.haila-address .container .haila-order-list dt span:nth-child(1) {
+  width: 420px;
+}
+.haila-address .container .haila-order-list dt span:nth-child(2),
+.haila-address .container .haila-order-list dt span:nth-child(3),
+.haila-address .container .haila-order-list dt span:nth-child(4) {
+  width: 220px;
+}
+.haila-address .container .haila-order-list dd {
+  height: 145px;
+  display: flex;
+  font-size: 12px;
+  border: 1px solid #e9e9e9;
+  border-top: 0;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.haila-address .container .haila-order-list dd .order-item-main {
+  display: flex;
+  align-items: center;
+  width: 420px;
+  overflow: hidden;
+}
+.haila-address .container .haila-order-list dd .order-item-main a {
+  display: flex;
+  color: #333;
+  align-items: center;
+}
+.haila-address .container .haila-order-list dd .order-item-main img {
+  width: 86px;
+  height: 86px;
+  margin: 0 20px;
+  border: 1px solid #e9e9e9;
+}
+.haila-address .container .haila-order-list dd .order-item-main span {
+  font-weight: bold;
+}
+.haila-address .container .haila-order-list dd .order-item-price {
+  text-align: center;
+}
+.haila-address .container .haila-order-list dd .order-item-quantity {
+  text-align: center;
+}
+.haila-address .container .haila-order-list dd .order-item-subtotal {
+  color: #eb295c;
+  text-align: center;
+}
+.haila-address .container .haila-order-list dd .order-item-price,
+.haila-address .container .haila-order-list dd .order-item-quantity,
+.haila-address .container .haila-order-list dd .order-item-subtotal {
+  width: 220px;
+  line-height: 145px;
+}
+.haila-address .container .address-order-footer {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 56px;
+}
+.haila-address .container .address-order-footer span:nth-child(2) {
+  font-size: 16px;
+  color: #eb295c;
+  font-weight: bold;
+  padding: 0 30px 0 10px;
+}
+.haila-address .container .address-order-footer a {
+  padding: 0 30px;
+  background-color: #eb295c;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
